@@ -27,12 +27,14 @@ The application is built base on ES6, which includes the following new features:
 - [default parameters](#default-parameters)
 - [let & const](#let-&-const)
 - [HTML Templace String](#HTML-Templace-String)
+
 ## Video Walkthrough
 Here's a walkthrough:
 
 ![Video Walkthrough](demo.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
 ### Arrows
 Two factors influenced the introduction of arrow functions: shorter functions and lexical `this`.
 ```JavaScript
