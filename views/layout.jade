@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    title
+    link(type='text/css', rel='stylesheet', href='stylesheets/materialize/css/materialize.min.css')
+    link(type='text/css', rel='stylesheet', href='stylesheets/styles.css')
+  body
+    nav.controls
+      a.button(href='#', onclick='stopwatch.start();') Start
+      a.button(href='#', onclick='stopwatch.lap();') Lap
+      a.button(href='#', onclick='stopwatch.stop();') Stop
+      a.button(href='#', onclick='stopwatch.restart();') Restart
+      a.button(href='#', onclick='stopwatch.clear();') Clear Laps
+    #container
+      form
+        .control.input-field
+          | Timer(minutes):
+          input#timer(type='number', name='timer-input', value='0', min='0')
+        a.timer-btn.start.waves-effect
+          i.mdi-av-play-arrow(onclick='stopwatch.start();')
+        a.timer-btn.pause.waves-effect
+          i.mdi-av-pause(onclick='stopwatch.stop();')
+        a.timer-btn.reset.waves-effect
+          i.mdi-av-replay(onclick='stopwatch.restart();')
+    ul.results
+    .stopwatch
+    script(src='javascripts/script.js')
