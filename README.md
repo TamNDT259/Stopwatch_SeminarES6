@@ -4,6 +4,7 @@
 - 1312485 - Nguyễn Ngọc Sáng
 - 1312498 - Trần Thị Sương
 - 1312508 - Nguyễn Đăng Thiện Tâm
+
 ## **Introduction ES6**
 
 ECMAScript 6, also known as ECMAScript 2015, is the latest version of the ECMAScript standard. ES6 is a significant update to the language, and the first update to the language since ES5 was standardized in 2009. Implementation of these features in major JavaScript engines is underway now.
@@ -16,6 +17,7 @@ ES6 includes the following new features:
 - template strings
 - destructuring
 - ...
+
 ## **Stopwatch**
 An application is used to illustrate a Stopwatch, which can measure elapsed time for one interval, or the total of elapsed time across multiple intervals. You will call the Start method, then eventually call the Stop method to stop the process. Beside, you can use the Reset method to clear elapsed time or using the Lap method to save each moment whhile the Stopwatch is running.
 
